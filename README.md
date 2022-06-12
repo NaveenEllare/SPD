@@ -3,4 +3,4 @@ SPD is a self made brand and ecommerce platform for pharmaceutical distributions
 .
 .
 .
-will be uploading the full file in the  upcomming days
+will be uploading the full file in the  upcoming days
