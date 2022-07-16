@@ -1,4 +1,4 @@
- <?php
+ <!-- <?php
 
 require('dbconnection/connection.inc.php');
 require('functions.inc.php');
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
 	}
 	
 }
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
 			      <input type="text"  name="username"placeholder="Username" required>
 			      <div class="font font2">Password</div>
 			      <input type="password" name="password" placeholder="Password" required>
-			      <button type="submit" name="submit">Login</button>
+			      <button type="submit" name="submit"><a href="client_side/home_page.php">Login</button></a>
                <div class="field_error"><?php echo $msg?></div>
 	         </form>
    </div>
