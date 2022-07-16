@@ -1,0 +1,92 @@
+
+.order {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #3af2ff ;
+}
+
+.address {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.date {
+    padding: 20px;
+    text-align: right;
+    font-size: 10px;
+}
+
+.table {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    width: 1000px;
+    height: auto;
+    border: 20px solid rgb(0, 100, 104);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.659), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table table {
+    width: 99%;
+    height: auto;
+    margin: 15px auto;
+}
+
+.table table,th,tr, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.total {
+    text-align: right;
+}
+
+.val {
+    text-align: left;
+}
+
+.btn-order {
+    margin: 25px 0 24px 0;
+	height: 45px;
+	width: 202px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background:cadetblue;
+	border-radius: 3px;
+	border: 1px solid #ff0000;
+	transition: .5s;
+
+}
+ .btn-order:hover
+{
+	background: #2eceff;
+}
+
+.btn-delete{
+     margin: 25px 0 24px 0;
+	height: 35px;
+	width: 150px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background:rgb(255, 63, 63);
+	border-radius: 3px;
+	border: 1px solid #aa0000;
+	transition: .5s;
+
+}
+ .btn-delete:hover
+{
+	background: #2eceff;
+}
